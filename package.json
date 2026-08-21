@@ -1,0 +1,28 @@
+{
+  "name": "chocafacil-offline",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "prebuild:android": "expo prebuild --platform android",
+    "doctor": "expo-doctor",
+    "build:apk": "eas build --platform android --profile preview",
+    "build:play": "eas build --platform android --profile production"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-file-system": "~19.0.24",
+    "expo-image-picker": "~17.0.11",
+    "expo-notifications": "~0.32.17",
+    "expo-sqlite": "~16.0.10",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  }
+}
