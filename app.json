@@ -7,16 +7,15 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "chocafacil",
-
     "android": {
       "package": "com.depaulasystems.chocafacil",
       "versionCode": 1,
       "permissions": [
         "android.permission.POST_NOTIFICATIONS",
-        "android.permission.SCHEDULE_EXACT_ALARM"
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECORD_AUDIO"
       ]
     },
-
     "plugins": [
       [
         "expo-image-picker",
@@ -28,9 +27,11 @@
       "expo-notifications",
       "expo-sqlite"
     ],
-
     "extra": {
-      "offlineOnly": true
+      "offlineOnly": true,
+      "eas": {
+        "projectId": "74665e4c-05cd-4d39-84f2-39b7951a832a"
+      }
     }
   }
 }
