@@ -14,7 +14,7 @@ import { FatalErrorScreen, LoadingScreen } from './src/screens/AppStateScreens';
 import { Toast } from './src/components/Toast';
 import { configureNotificationChannel } from './src/services/notificationService';
 import {   
-  cancelHatching, 
+  cancelHatching,  
   createChicken,
   deleteChicken,
   finishHatching,
