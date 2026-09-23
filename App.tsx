@@ -19,7 +19,7 @@ import {
   deleteChicken,
   finishHatching,
   getAllChickens,
-  getChickenDetail,
+  getChickenDetail, 
   reactivateHatchingNotifications,
   reconcileExistingNotifications,
   startHatching,
