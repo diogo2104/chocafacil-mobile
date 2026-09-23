@@ -15,7 +15,7 @@ import { Toast } from './src/components/Toast';
 import { configureNotificationChannel } from './src/services/notificationService';
 import {   
   cancelHatching,      
-  createChicken,  
+  createChicken,   
   deleteChicken,
   finishHatching,
   getAllChickens,
