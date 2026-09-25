@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Alert, AppState, StyleSheet, View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'expo-status-bar'; 
 import { initDatabase } from './src/database/db';
 import type { Chicken, ChickenDetail, ChickenFormData } from './src/types/models';
 import { HomeScreen } from './src/screens/HomeScreen';
