@@ -3,7 +3,7 @@ import { Alert, AppState, StyleSheet, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar'; 
 import { initDatabase } from './src/database/db';
 import type { Chicken, ChickenDetail, ChickenFormData } from './src/types/models';
-import { HomeScreen } from './src/screens/HomeScreen';
+import { HomeScreen } from './src/screens/HomeScreen'; 
 import { ChickenFormScreen } from './src/screens/ChickenFormScreen';
 import { ChickenDetailScreen } from './src/screens/ChickenDetailScreen'; 
 import { StartHatchingScreen } from './src/screens/StartHatchingScreen';
