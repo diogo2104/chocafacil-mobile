@@ -9,7 +9,7 @@ import { ChickenDetailScreen } from './src/screens/ChickenDetailScreen';
 import { StartHatchingScreen } from './src/screens/StartHatchingScreen';
 import { RegisterChicksScreen } from './src/screens/RegisterChicksScreen';
 import { HatchingDoneScreen } from './src/screens/HatchingDoneScreen';
-import { SplashScreen } from './src/screens/SplashScreen';
+import { SplashScreen } from './src/screens/SplashScreen'; 
 import { FatalErrorScreen, LoadingScreen } from './src/screens/AppStateScreens';
 import { Toast } from './src/components/Toast';
 import { configureNotificationChannel } from './src/services/notificationService';
